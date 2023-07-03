@@ -1,0 +1,81 @@
+{
+  "uuid": "05a3abd6-a6ab-49fa-9474-e9ae265b773f-tr-0-1008",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC02_InvalidPassword",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC02_InvalidPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_InvalidPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Incorrect password error message"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC02_InvalidPassword",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 45 but was 46. Strings differ at index 0.\r\n  Expected: \"The password was incorrect. Please try again.\"\r\n  But was:  \"Sorry, something went wrong. Please try again.\"\r\n  -----------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC02_InvalidPassword() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 47\r\n"
+  },
+  "stage": "finished",
+  "description": "Test invaild password\n",
+  "steps": [
+    {
+      "name": "TC02_InvalidPassword",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 45 but was 46. Strings differ at index 0.\r\n  Expected: \"The password was incorrect. Please try again.\"\r\n  But was:  \"Sorry, something went wrong. Please try again.\"\r\n  -----------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC02_InvalidPassword() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 47\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "2ef50c47c7a44ce9846a42045564834c-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "093300174be740a3a79cf0de45b89459-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686559390304,
+      "stop": 1686559395610
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686559390304,
+  "stop": 1686559395610
+}

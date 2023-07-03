@@ -1,0 +1,73 @@
+{
+  "uuid": "5c6c3878-3318-4ba1-9840-d25f2af5ed02-tr-0-1017",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC02_ForgotPassword",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC02_ForgotPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#10"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_ForgotPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Forgot your passowrd?"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC02_ForgotPassword",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC02_ForgotPassword"
+  },
+  "stage": "finished",
+  "description": "Test forgot password functionality\n",
+  "steps": [
+    {
+      "name": "TC02_ForgotPassword",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a4b40586a27c44ddaf99ce6e8bc794bb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687788058398,
+      "stop": 1687788060116
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687788058398,
+  "stop": 1687788060116
+}

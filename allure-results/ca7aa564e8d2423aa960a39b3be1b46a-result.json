@@ -1,0 +1,76 @@
+{
+  "uuid": "6411a246-fb64-410d-8d14-e84ce1b42728-tr-0-1005",
+  "historyId": "Final_Automation_Project.Tests.TestMainTopBar.TC05_OpenCart",
+  "fullName": "Final_Automation_Project.Tests.TestMainTopBar.TC05_OpenCart",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#10"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC05_OpenCart"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMainTopBar"
+    },
+    {
+      "name": "feature",
+      "value": "Open cart"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC05_OpenCart",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.110)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.110)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Final_Automation_Project.PageObjects.MainTopBar.get_CartBtn() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\MainTopBar.cs:line 15\r\n   at Final_Automation_Project.PageObjects.MainTopBar.OpenCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\MainTopBar.cs:line 44\r\n   at Final_Automation_Project.Tests.TestMainTopBar.TC05_OpenCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestMainTopBar.cs:line 70\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Final_Automation_Project.Tests.BaseTest.TakeScreenShotOnFailure() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\BaseTest.cs:line 31"
+  },
+  "stage": "finished",
+  "description": "\nTakeScreenShotOnFailure TearDown method failed\n\nTearDown OneTimeTearDown method failed\nTest opening cart\n",
+  "steps": [
+    {
+      "name": "TC05_OpenCart",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.110)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.110)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Final_Automation_Project.PageObjects.MainTopBar.get_CartBtn() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\MainTopBar.cs:line 15\r\n   at Final_Automation_Project.PageObjects.MainTopBar.OpenCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\MainTopBar.cs:line 44\r\n   at Final_Automation_Project.Tests.TestMainTopBar.TC05_OpenCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestMainTopBar.cs:line 70\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Final_Automation_Project.Tests.BaseTest.TakeScreenShotOnFailure() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\BaseTest.cs:line 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "01cd649d4d2f425781b2d5dbbe252e11-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686488475898,
+      "stop": 1686488475904
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686488475898,
+  "stop": 1686488475904
+}

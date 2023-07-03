@@ -1,0 +1,81 @@
+{
+  "uuid": "61a896d6-48bb-42aa-a183-41b290297a17-tr-0-1007",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC01_Login",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC01_Login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_Login"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC01_Login",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: False\r\n  But was:  True\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC01_Login() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 33\r\n"
+  },
+  "stage": "finished",
+  "description": "Test login functionality\n",
+  "steps": [
+    {
+      "name": "TC01_Login",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: False\r\n  But was:  True\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC01_Login() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 33\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "1d7cccd1aa734cc9938f9dfb56866d58-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "7c9e0a7009834f4a9ade7ec7afef7766-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686557118001,
+      "stop": 1686557131348
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686557118001,
+  "stop": 1686557131348
+}

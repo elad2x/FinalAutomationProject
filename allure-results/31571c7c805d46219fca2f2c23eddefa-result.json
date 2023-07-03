@@ -1,0 +1,81 @@
+{
+  "uuid": "2bf0d1ba-01ac-4f74-9596-13b40e756f55-tr-0-1024",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC04_ScreenInfo",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC04_ScreenInfo",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#6"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_ScreenInfo"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "TV screen size info"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    }
+  ],
+  "links": [],
+  "name": "TC04_ScreenInfo",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestTVsPage.TC04_ScreenInfo() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 64\r\n"
+  },
+  "stage": "finished",
+  "description": "Test TV screen size information\n",
+  "steps": [
+    {
+      "name": "TC04_ScreenInfo",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestTVsPage.TC04_ScreenInfo() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 64\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "b20b72dc02f140fb8a79a25b4f1b88dc-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "e81e368ce6a34d1db830afcfe1b31b0f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688368544717,
+      "stop": 1688368545705
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688368544717,
+  "stop": 1688368545705
+}

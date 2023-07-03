@@ -1,0 +1,81 @@
+{
+  "uuid": "e5eec824-12b8-49f4-a5e7-d8a2cad1d4d4-tr-0-1011",
+  "historyId": "Final_Automation_Project.Tests.TestSavedItemsPage.TC01_SaveItem",
+  "fullName": "Final_Automation_Project.Tests.TestSavedItemsPage.TC01_SaveItem",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#11"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_SaveItem"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSavedItemsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Save item"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC01_SaveItem",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestSavedItemsPage.TC01_SaveItem() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 30\r\n"
+  },
+  "stage": "finished",
+  "description": "Test saving an item\n",
+  "steps": [
+    {
+      "name": "TC01_SaveItem",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestSavedItemsPage.TC01_SaveItem() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 30\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "d3168bc31bbb4f15a31ef6c9f825b93e-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "e73ef905622e4bf18006eb753d6780e6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687335034388,
+      "stop": 1687335049124
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687335034387,
+  "stop": 1687335049127
+}

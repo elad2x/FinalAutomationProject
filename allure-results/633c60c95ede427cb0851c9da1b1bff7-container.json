@@ -1,0 +1,61 @@
+{
+  "uuid": "2b6539a7-d97b-4097-8b9f-62dbbce449da-tc-0-1004",
+  "name": "Final_Automation_Project.Tests.TestMainTopBar.TC02_TopDeals",
+  "children": [
+    "9ba38a89-2a30-4c1b-80c0-1756b34a1d2c-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687864754130,
+      "stop": 1687864754130
+    }
+  ],
+  "afters": [
+    {
+      "name": "TakeScreenShotOnFailure",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687864754130,
+      "stop": 1687864754130
+    },
+    {
+      "name": "TearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687864754130,
+      "stop": 1687864754130
+    }
+  ],
+  "links": [],
+  "start": 1687864748663,
+  "stop": 1687864754132
+}

@@ -1,0 +1,61 @@
+{
+  "uuid": "f80411dc-a168-4b2d-8b57-472f13eb0a6b-tc-0-1015",
+  "name": "Final_Automation_Project.Tests.TestSignInPage.TC03_CreateAccount",
+  "children": [
+    "9cbf5300-6b39-4a93-88c6-249b0d4b042e-tr-0-1018"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687692781632,
+      "stop": 1687692781632
+    }
+  ],
+  "afters": [
+    {
+      "name": "TakeScreenShotOnFailure",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687692781632,
+      "stop": 1687692781632
+    },
+    {
+      "name": "TearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1687692781632,
+      "stop": 1687692781632
+    }
+  ],
+  "links": [],
+  "start": 1687692778161,
+  "stop": 1687692781636
+}

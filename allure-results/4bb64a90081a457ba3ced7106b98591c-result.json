@@ -1,0 +1,73 @@
+{
+  "uuid": "17d59ba6-5765-420b-8535-b6c218877f84-tr-0-1002",
+  "historyId": "Final_Automation_Project.Tests.TestCartPage.TC02_SaveItem",
+  "fullName": "Final_Automation_Project.Tests.TestCartPage.TC02_SaveItem",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_SaveItem"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCartPage"
+    },
+    {
+      "name": "feature",
+      "value": "Save item"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_SaveItem",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC02_SaveItem"
+  },
+  "stage": "finished",
+  "description": "Test saving item\n",
+  "steps": [
+    {
+      "name": "TC02_SaveItem",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "8f07340af9b64d7faa26e766d21774ca-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687262326993,
+      "stop": 1687262336423
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687262326993,
+  "stop": 1687262336423
+}

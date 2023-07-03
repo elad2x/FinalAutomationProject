@@ -1,0 +1,73 @@
+{
+  "uuid": "5f965f9a-60e9-424f-ad01-11189d18f831-tr-0-1012",
+  "historyId": "Final_Automation_Project.Tests.TestSavedItemsPage.TC02_SeeMoreItems",
+  "fullName": "Final_Automation_Project.Tests.TestSavedItemsPage.TC02_SeeMoreItems",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#10"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_SeeMoreItems"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSavedItemsPage"
+    },
+    {
+      "name": "feature",
+      "value": "See more items"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_SeeMoreItems",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC02_SeeMoreItems"
+  },
+  "stage": "finished",
+  "description": "Test see more items functionality\n",
+  "steps": [
+    {
+      "name": "TC02_SeeMoreItems",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2b5c6442583d4501913859a765495058-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687866206071,
+      "stop": 1687866207603
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687866206071,
+  "stop": 1687866207603
+}

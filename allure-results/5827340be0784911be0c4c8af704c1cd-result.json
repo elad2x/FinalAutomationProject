@@ -1,0 +1,76 @@
+{
+  "uuid": "8eacb661-97e3-413d-bf0d-5dbf640fef1d-tr-0-1025",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#11"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC05_AddToCart"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Add to cart"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC05_AddToCart",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.199)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.199)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 73\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Final_Automation_Project.Tests.BaseTest.TakeScreenShotOnFailure() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\BaseTest.cs:line 35"
+  },
+  "stage": "finished",
+  "description": "\nTakeScreenShotOnFailure TearDown method failed\n\nTearDown OneTimeTearDown method failed\nTest add random item to cart\n",
+  "steps": [
+    {
+      "name": "TC05_AddToCart",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.199)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.199)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.set_Url(String value)\r\n   at Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 73\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at Final_Automation_Project.Tests.BaseTest.TakeScreenShotOnFailure() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\BaseTest.cs:line 35"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "21dc4db6db5748b49408b757db2f911f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688368506553,
+      "stop": 1688368506568
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688368506553,
+  "stop": 1688368506568
+}

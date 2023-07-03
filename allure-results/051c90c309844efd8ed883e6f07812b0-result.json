@@ -1,0 +1,81 @@
+{
+  "uuid": "452a756c-8833-449e-b9a7-fd63166193fc-tr-0-1002",
+  "historyId": "Final_Automation_Project.Tests.TestCartPage.TC02_SaveItem",
+  "fullName": "Final_Automation_Project.Tests.TestCartPage.TC02_SaveItem",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_SaveItem"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCartPage"
+    },
+    {
+      "name": "feature",
+      "value": "Save item"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_SaveItem",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at System.Collections.ObjectModel.ReadOnlyCollection`1.System.Collections.Generic.IList<T>.get_Item(Int32 index)\r\n   at Final_Automation_Project.PageObjects.CartPage.SaveAnItem(Int32 num) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\CartPage.cs:line 38\r\n   at Final_Automation_Project.Tests.TestCartPage.TC02_SaveItem() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 42"
+  },
+  "stage": "finished",
+  "description": "Test saving item\n",
+  "steps": [
+    {
+      "name": "TC02_SaveItem",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at System.Collections.ObjectModel.ReadOnlyCollection`1.System.Collections.Generic.IList<T>.get_Item(Int32 index)\r\n   at Final_Automation_Project.PageObjects.CartPage.SaveAnItem(Int32 num) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\CartPage.cs:line 38\r\n   at Final_Automation_Project.Tests.TestCartPage.TC02_SaveItem() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 42"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "08dcdb81abea4176b0c7c1a6615755cf-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "abc02637692d4d589fca035d9bda4215-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687257592007,
+      "stop": 1687257597234
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687257592007,
+  "stop": 1687257597234
+}

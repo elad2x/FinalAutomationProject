@@ -1,0 +1,81 @@
+{
+  "uuid": "42b5760f-d0b0-48cf-a6cd-82645b0757a4-tr-0-1016",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidPassword",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#11"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_InvalidPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Incorrect password error message"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC01_InvalidPassword",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button class=\"c-button-unstyled plButton account-button d-flex justify-content-center align-items-center\" type=\"button\" id=\"account-menu-account-button\" data-lid=\"hdr_signin\" aria-expanded=\"false\" style=\"\">...</button> is not clickable at point (1260, 259). Other element would receive the click: <div id=\"confirmIt-backdrop\" class=\"confirmIt modal-backdrop in\"></div>\n  (Session info: chrome=114.0.5735.134)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 51\r\n   at Final_Automation_Project.PageObjects.MainTopBar.OpenAccountMenu() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\MainTopBar.cs:line 24\r\n   at Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidPassword() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 26"
+  },
+  "stage": "finished",
+  "description": "Test invaild password\n",
+  "steps": [
+    {
+      "name": "TC01_InvalidPassword",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button class=\"c-button-unstyled plButton account-button d-flex justify-content-center align-items-center\" type=\"button\" id=\"account-menu-account-button\" data-lid=\"hdr_signin\" aria-expanded=\"false\" style=\"\">...</button> is not clickable at point (1260, 259). Other element would receive the click: <div id=\"confirmIt-backdrop\" class=\"confirmIt modal-backdrop in\"></div>\n  (Session info: chrome=114.0.5735.134)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 51\r\n   at Final_Automation_Project.PageObjects.MainTopBar.OpenAccountMenu() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\MainTopBar.cs:line 24\r\n   at Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidPassword() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 26"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "f08953cf13be457db38bf94ed477b408-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "96513c05d58440e1a3ab6433aab7875e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687697325544,
+      "stop": 1687697331645
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687697325543,
+  "stop": 1687697331649
+}

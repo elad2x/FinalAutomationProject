@@ -1,0 +1,73 @@
+{
+  "uuid": "78c8cf02-a494-4d73-8551-1d16bbc329f8-tr-0-1005",
+  "historyId": "Final_Automation_Project.Tests.TestMainTopBar.TC01_Search",
+  "fullName": "Final_Automation_Project.Tests.TestMainTopBar.TC01_Search",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_Search"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMainTopBar"
+    },
+    {
+      "name": "feature",
+      "value": "Search"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC01_Search",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC01_Search"
+  },
+  "stage": "finished",
+  "description": "Test search functionality\n",
+  "steps": [
+    {
+      "name": "TC01_Search",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e43691d665af448b90aacea67b573ed6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687352480012,
+      "stop": 1687352505616
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687352480012,
+  "stop": 1687352505616
+}

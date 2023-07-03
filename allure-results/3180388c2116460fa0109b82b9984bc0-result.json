@@ -1,0 +1,81 @@
+{
+  "uuid": "b10b1c07-05d4-4369-a8b5-e69bb9ee9e17-tr-0-1014",
+  "historyId": "Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem",
+  "fullName": "Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_DeleteItem"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSavedItemsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Delete item"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_DeleteItem",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+    "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at System.Collections.ObjectModel.ReadOnlyCollection`1.System.Collections.Generic.IList<T>.get_Item(Int32 index)\r\n   at Final_Automation_Project.PageObjects.SavedItemsPage.DeleteItem(Int32 num) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\SavedItemsPage.cs:line 49\r\n   at Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 67"
+  },
+  "stage": "finished",
+  "description": "Test deleting an item\n",
+  "steps": [
+    {
+      "name": "TC04_DeleteItem",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')",
+        "trace": "   at System.Collections.Generic.List`1.get_Item(Int32 index)\r\n   at System.Collections.ObjectModel.ReadOnlyCollection`1.System.Collections.Generic.IList<T>.get_Item(Int32 index)\r\n   at Final_Automation_Project.PageObjects.SavedItemsPage.DeleteItem(Int32 num) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\SavedItemsPage.cs:line 49\r\n   at Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 67"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "f5a86ddf6e34416f88f8beb4b779eba3-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "93b719e8abfa4dbf88a2b04d9379f938-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688371021051,
+      "stop": 1688371021304
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688371021051,
+  "stop": 1688371021305
+}

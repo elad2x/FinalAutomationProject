@@ -1,0 +1,81 @@
+{
+  "uuid": "cebf84c0-4a6a-4fbc-9fbd-04c985a9e717-tr-0-1001",
+  "historyId": "Final_Automation_Project.Tests.TestCartPage.TC01_AddToCart",
+  "fullName": "Final_Automation_Project.Tests.TestCartPage.TC01_AddToCart",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_AddToCart"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCartPage"
+    },
+    {
+      "name": "feature",
+      "value": ""
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC01_AddToCart",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: stale element not found\n  (Session info: chrome=114.0.5735.134)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.GetAttribute(String attributeName)\r\n   at Final_Automation_Project.PageObjects.BasePage.HighlightElementV2(IWebElement element, String color) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 70\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 38\r\n   at Final_Automation_Project.PageObjects.MainTopBar.OpenCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\MainTopBar.cs:line 45\r\n   at Final_Automation_Project.Tests.TestCartPage.TC01_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 27"
+  },
+  "stage": "finished",
+  "description": "\n",
+  "steps": [
+    {
+      "name": "TC01_AddToCart",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : stale element reference: stale element not found\n  (Session info: chrome=114.0.5735.134)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.GetAttribute(String attributeName)\r\n   at Final_Automation_Project.PageObjects.BasePage.HighlightElementV2(IWebElement element, String color) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 70\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 38\r\n   at Final_Automation_Project.PageObjects.MainTopBar.OpenCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\MainTopBar.cs:line 45\r\n   at Final_Automation_Project.Tests.TestCartPage.TC01_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 27"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "4c8c2db91bc74788bb1467a50a487974-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "5778bcf89f0d486891578f2d8f60289f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687090407514,
+      "stop": 1687090428481
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687090407513,
+  "stop": 1687090428484
+}

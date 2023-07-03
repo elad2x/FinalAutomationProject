@@ -1,0 +1,81 @@
+{
+  "uuid": "8bc5a77a-d9a6-4062-a9eb-df79fd00a598-tr-0-1001",
+  "historyId": "Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount",
+  "fullName": "Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#11"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_SelectAmount"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCartPage"
+    },
+    {
+      "name": "feature",
+      "value": "Select amount"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC01_SelectAmount",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  The desired option should be selected.\r\n  String lengths are both 1. Strings differ at index 0.\r\n  Expected: \"3\"\r\n  But was:  \"1\"\r\n  -----------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 31\r\n"
+  },
+  "stage": "finished",
+  "description": "Test selecting item amount\n",
+  "steps": [
+    {
+      "name": "TC01_SelectAmount",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  The desired option should be selected.\r\n  String lengths are both 1. Strings differ at index 0.\r\n  Expected: \"3\"\r\n  But was:  \"1\"\r\n  -----------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 31\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "f98005514e874fd68b55d746988eaeca-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "812808c9d178492b9524034853072960-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687175586397,
+      "stop": 1687175607098
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687175586396,
+  "stop": 1687175607101
+}

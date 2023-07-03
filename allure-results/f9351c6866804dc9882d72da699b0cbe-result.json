@@ -1,0 +1,73 @@
+{
+  "uuid": "485fd16c-1a81-47e6-8add-9a456db85363-tr-0-1014",
+  "historyId": "Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem",
+  "fullName": "Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#11"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_DeleteItem"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSavedItemsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Delete item"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_DeleteItem",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC04_DeleteItem"
+  },
+  "stage": "finished",
+  "description": "Test deleting an item\n",
+  "steps": [
+    {
+      "name": "TC04_DeleteItem",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "0122505cf8ce412ba89766a2aa170906-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688297673664,
+      "stop": 1688297677494
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688297673664,
+  "stop": 1688297677494
+}

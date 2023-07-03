@@ -1,0 +1,73 @@
+{
+  "uuid": "6268bd8d-dd8b-4afa-b57c-b940861f95da-tr-0-1010",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC04_CreateAccount",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC04_CreateAccount",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#9"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_CreateAccount"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Forgot your passowrd?"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC04_CreateAccount",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC04_CreateAccount"
+  },
+  "stage": "finished",
+  "description": "Test creating an account functionality\n",
+  "steps": [
+    {
+      "name": "TC04_CreateAccount",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "131d285b77ac46debe8db1eb11a19892-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686559906379,
+      "stop": 1686559909182
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686559906379,
+  "stop": 1686559909182
+}

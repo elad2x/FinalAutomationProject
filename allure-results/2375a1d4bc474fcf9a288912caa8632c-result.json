@@ -1,0 +1,73 @@
+{
+  "uuid": "6d8c27a3-03bf-4dd5-b35f-5f6a7805d728-tr-0-1006",
+  "historyId": "Final_Automation_Project.Tests.TestMainTopBar.TC02_TopDeals",
+  "fullName": "Final_Automation_Project.Tests.TestMainTopBar.TC02_TopDeals",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_TopDeals"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMainTopBar"
+    },
+    {
+      "name": "feature",
+      "value": "Open top deals"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC02_TopDeals",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC02_TopDeals"
+  },
+  "stage": "finished",
+  "description": "Test top deals opening\n",
+  "steps": [
+    {
+      "name": "TC02_TopDeals",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "644bb54c69b04006b5cde8bad63cfa35-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687352505630,
+      "stop": 1687352514231
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687352505630,
+  "stop": 1687352514231
+}

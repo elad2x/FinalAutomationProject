@@ -1,0 +1,81 @@
+{
+  "uuid": "95d1ad1b-f51e-4437-b88b-0d6f2d5ee02b-tr-0-1014",
+  "historyId": "Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem",
+  "fullName": "Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#11"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_DeleteItem"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSavedItemsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Delete item"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_DeleteItem",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"card-delete\" style=\"\">...</div> is not clickable at point (904, 14). Other element would receive the click: <div class=\"top-nav\">...</div>\n  (Session info: chrome=114.0.5735.199)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 51\r\n   at Final_Automation_Project.PageObjects.SavedItemsPage.DeleteItem(Int32 num) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\SavedItemsPage.cs:line 52\r\n   at Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 66"
+  },
+  "stage": "finished",
+  "description": "Test deleting an item\n",
+  "steps": [
+    {
+      "name": "TC04_DeleteItem",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"card-delete\" style=\"\">...</div> is not clickable at point (904, 14). Other element would receive the click: <div class=\"top-nav\">...</div>\n  (Session info: chrome=114.0.5735.199)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 51\r\n   at Final_Automation_Project.PageObjects.SavedItemsPage.DeleteItem(Int32 num) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\SavedItemsPage.cs:line 52\r\n   at Final_Automation_Project.Tests.TestSavedItemsPage.TC04_DeleteItem() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 66"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "150f41184eb64a45938338d920f46760-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "07dd4fcb7e5f4546a9a16b1d358447b1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688294985349,
+      "stop": 1688294986697
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688294985349,
+  "stop": 1688294986697
+}

@@ -1,0 +1,81 @@
+{
+  "uuid": "b9b33ac2-7685-44a6-b826-3487a93513c0-tr-0-1025",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC05_AddToCart"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Add to cart"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC05_AddToCart",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"sli-add-to-cart\" style=\"\">...</div> is not clickable at point (1547, 257). Other element would receive the click: <div id=\"confirmIt-backdrop\" class=\"confirmIt modal-backdrop in\"></div>\n  (Session info: chrome=114.0.5735.199)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 51\r\n   at Final_Automation_Project.PageObjects.TVsPage.AddRandomItemtoCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\TVsPage.cs:line 58\r\n   at Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 77"
+  },
+  "stage": "finished",
+  "description": "Test add random item to cart\n",
+  "steps": [
+    {
+      "name": "TC05_AddToCart",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div class=\"sli-add-to-cart\" style=\"\">...</div> is not clickable at point (1547, 257). Other element would receive the click: <div id=\"confirmIt-backdrop\" class=\"confirmIt modal-backdrop in\"></div>\n  (Session info: chrome=114.0.5735.199)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 51\r\n   at Final_Automation_Project.PageObjects.TVsPage.AddRandomItemtoCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\TVsPage.cs:line 58\r\n   at Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 77"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "35385e60c46d46a2bcc7fcc7bfbb018f-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "8cf2a36edb0648969baf28e93b291484-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688369693560,
+      "stop": 1688369705770
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688369693560,
+  "stop": 1688369705774
+}

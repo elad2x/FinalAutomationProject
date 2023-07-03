@@ -1,0 +1,81 @@
+{
+  "uuid": "d5b89a02-6ec8-47b8-a65e-8a624847da79-tr-0-1016",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidEmail",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidEmail",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#9"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_InvalidEmail"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Incorrect email error message"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC01_InvalidEmail",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 87 but was 46. Strings differ at index 0.\r\n  Expected: \"We didn't find an account with that email address. Would you ...\"\r\n  But was:  \"Sorry, something went wrong. Please try again.\"\r\n  -----------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidEmail() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 36\r\n"
+  },
+  "stage": "finished",
+  "description": "Test invaild email\n",
+  "steps": [
+    {
+      "name": "TC01_InvalidEmail",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 87 but was 46. Strings differ at index 0.\r\n  Expected: \"We didn't find an account with that email address. Would you ...\"\r\n  But was:  \"Sorry, something went wrong. Please try again.\"\r\n  -----------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidEmail() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 36\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "a7503d229fcb48afae8188f0b5eeed3b-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "4b9198df2cdc4790ab0b2c478f3ca1b9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687785568259,
+      "stop": 1687785582634
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687785568258,
+  "stop": 1687785582638
+}

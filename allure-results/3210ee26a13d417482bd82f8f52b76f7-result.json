@@ -1,0 +1,81 @@
+{
+  "uuid": "88a2591f-7e94-4d45-9c85-26081180ff46-tr-0-1016",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidEmail",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidEmail",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#9"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_InvalidEmail"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Incorrect email error message"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC01_InvalidEmail",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 87 but was 72. Strings differ at index 0.\r\n  Expected: \"We didn't find an account with that email address. Would you ...\"\r\n  But was:  \"Oops! The email or password did not match our records. Please...\"\r\n  -----------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidEmail() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 35\r\n"
+  },
+  "stage": "finished",
+  "description": "Test invaild email\n",
+  "steps": [
+    {
+      "name": "TC01_InvalidEmail",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 87 but was 72. Strings differ at index 0.\r\n  Expected: \"We didn't find an account with that email address. Would you ...\"\r\n  But was:  \"Oops! The email or password did not match our records. Please...\"\r\n  -----------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC01_InvalidEmail() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 35\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "5f351176275945c28b4820b4643eec9d-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "eddd70ec9a8a46a99717446f384635c4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687781485257,
+      "stop": 1687781497268
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687781485256,
+  "stop": 1687781497272
+}

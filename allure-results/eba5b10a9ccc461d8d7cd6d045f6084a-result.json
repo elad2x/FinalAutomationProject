@@ -1,0 +1,81 @@
+{
+  "uuid": "9e112553-8153-4799-a839-3403c7bfe203-tr-0-1017",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC03_ForgotPassword",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC03_ForgotPassword",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC03_ForgotPassword"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Forgot your passowrd?"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC03_ForgotPassword",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 19. Strings differ at index 0.\r\n  Expected: \"Reset Your Password\"\r\n  But was:  \"Sign In to Best Buy\"\r\n  -----------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC03_ForgotPassword() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 59\r\n"
+  },
+  "stage": "finished",
+  "description": "Test forgot password functionality\n",
+  "steps": [
+    {
+      "name": "TC03_ForgotPassword",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  String lengths are both 19. Strings differ at index 0.\r\n  Expected: \"Reset Your Password\"\r\n  But was:  \"Sign In to Best Buy\"\r\n  -----------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestSignInPage.TC03_ForgotPassword() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSignInPage.cs:line 59\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "b10d59599ed2451aa41b838037eb618d-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "dc2e3a57a4e949bc9004613b8bc3acf5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687352513419,
+      "stop": 1687352515343
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687352513419,
+  "stop": 1687352515343
+}

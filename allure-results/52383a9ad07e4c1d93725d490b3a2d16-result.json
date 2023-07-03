@@ -1,0 +1,73 @@
+{
+  "uuid": "4fefccb4-71ee-4aa7-99b7-e1d4ed24e570-tr-0-1008",
+  "historyId": "Final_Automation_Project.Tests.TestMainTopBar.TC04_OpenMenu",
+  "fullName": "Final_Automation_Project.Tests.TestMainTopBar.TC04_OpenMenu",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_OpenMenu"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMainTopBar"
+    },
+    {
+      "name": "feature",
+      "value": "Open menu"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC04_OpenMenu",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC04_OpenMenu"
+  },
+  "stage": "finished",
+  "description": "Test opening menu\n",
+  "steps": [
+    {
+      "name": "TC04_OpenMenu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e3dccb4f400a488bb6dd6eb4dcf32848-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687864459235,
+      "stop": 1687864459386
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687864459235,
+  "stop": 1687864459386
+}

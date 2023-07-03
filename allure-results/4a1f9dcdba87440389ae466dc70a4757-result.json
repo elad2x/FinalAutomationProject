@@ -1,0 +1,73 @@
+{
+  "uuid": "b366718d-eef8-4ffd-8f57-636f512a26da-tr-0-1023",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC03_SortBy",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC03_SortBy",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#10"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC03_SortBy"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Sort by"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC03_SortBy",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC03_SortBy"
+  },
+  "stage": "finished",
+  "description": "Test sort by functionality\n",
+  "steps": [
+    {
+      "name": "TC03_SortBy",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3c067fb0a0e24ba2b71b81fe77e2746c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688370117556,
+      "stop": 1688370120998
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688370117556,
+  "stop": 1688370120998
+}

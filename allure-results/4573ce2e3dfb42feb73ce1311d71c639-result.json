@@ -1,0 +1,81 @@
+{
+  "uuid": "0ffbc221-76ca-4c72-b158-62a09a160775-tr-0-1021",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_ScreenSize"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Screen size filter"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC01_ScreenSize",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input class=\"c-checkbox-input appearance-none border-25 rounded-25\" type=\"checkbox\" id=\"parent_tvscreensizeplus_facet-55&quot;-64&quot;-3\" aria-label=\"55&quot; - 64&quot;\" autocomplete=\"off\" style=\"\"> is not clickable at point (241, 590). Other element would receive the click: <div id=\"survey_window\" class=\"modal fade modal-open out\" role=\"dialog\" style=\"margin-top: 397px; display: block;\">...</div>\n  (Session info: chrome=114.0.5735.199)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 51\r\n   at Final_Automation_Project.PageObjects.TVsPage.SelectScreenSize(String size) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\TVsPage.cs:line 138\r\n   at Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 26"
+  },
+  "stage": "finished",
+  "description": "Test filtering TVs by size\n",
+  "steps": [
+    {
+      "name": "TC01_ScreenSize",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input class=\"c-checkbox-input appearance-none border-25 rounded-25\" type=\"checkbox\" id=\"parent_tvscreensizeplus_facet-55&quot;-64&quot;-3\" aria-label=\"55&quot; - 64&quot;\" autocomplete=\"off\" style=\"\"> is not clickable at point (241, 590). Other element would receive the click: <div id=\"survey_window\" class=\"modal fade modal-open out\" role=\"dialog\" style=\"margin-top: 397px; display: block;\">...</div>\n  (Session info: chrome=114.0.5735.199)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at Final_Automation_Project.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 51\r\n   at Final_Automation_Project.PageObjects.TVsPage.SelectScreenSize(String size) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\TVsPage.cs:line 138\r\n   at Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 26"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "48ec6189795b49c590f4c348931b9501-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "d6da39e3b1564f1f894968290b90e0d8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688369987761,
+      "stop": 1688369999423
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688369987760,
+  "stop": 1688369999426
+}

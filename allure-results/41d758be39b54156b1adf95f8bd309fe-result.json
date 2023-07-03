@@ -1,0 +1,73 @@
+{
+  "uuid": "ecbeafda-1d00-44da-b831-1c9e563de3aa-tr-0-1009",
+  "historyId": "Final_Automation_Project.Tests.TestMainTopBar.TC05_OpenCart",
+  "fullName": "Final_Automation_Project.Tests.TestMainTopBar.TC05_OpenCart",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC05_OpenCart"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMainTopBar"
+    },
+    {
+      "name": "feature",
+      "value": "Open cart"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC05_OpenCart",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC05_OpenCart"
+  },
+  "stage": "finished",
+  "description": "Test opening cart\n",
+  "steps": [
+    {
+      "name": "TC05_OpenCart",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "147a0baa4e09476fb835486c93e9f75d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687262407827,
+      "stop": 1687262413379
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687262407827,
+  "stop": 1687262413379
+}

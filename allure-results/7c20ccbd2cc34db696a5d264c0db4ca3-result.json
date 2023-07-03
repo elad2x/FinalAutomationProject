@@ -1,0 +1,81 @@
+{
+  "uuid": "94d9f150-7fb2-43d4-bdd5-82bd406e44ea-tr-0-1001",
+  "historyId": "Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount",
+  "fullName": "Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#11"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_SelectAmount"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCartPage"
+    },
+    {
+      "name": "feature",
+      "value": "Select amount"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC01_SelectAmount",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Cannot locate element with text: 3",
+    "trace": "   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)\r\n   at Final_Automation_Project.PageObjects.BasePage.Select(IWebElement select, String value) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 47\r\n   at Final_Automation_Project.PageObjects.CartPage.SelectAmount(String amount) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\CartPage.cs:line 31\r\n   at Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 31"
+  },
+  "stage": "finished",
+  "description": "Test selecting item amount\n",
+  "steps": [
+    {
+      "name": "TC01_SelectAmount",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Cannot locate element with text: 3",
+        "trace": "   at OpenQA.Selenium.Support.UI.SelectElement.SelectByText(String text, Boolean partialMatch)\r\n   at Final_Automation_Project.PageObjects.BasePage.Select(IWebElement select, String value) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 47\r\n   at Final_Automation_Project.PageObjects.CartPage.SelectAmount(String amount) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\CartPage.cs:line 31\r\n   at Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 31"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "073b8850041044e28432a38d31acae49-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "aef9cdc320b846b3849a6a7ab17d9a32-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687245584830,
+      "stop": 1687245610870
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687245584829,
+  "stop": 1687245610876
+}

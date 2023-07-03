@@ -1,0 +1,81 @@
+{
+  "uuid": "9af31871-10c5-4eec-89b5-f557e7e76e69-tr-0-1012",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_ScreenSize"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Screen size filter"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC01_ScreenSize",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: \"55\" - 64\"\"\r\n  But was:  null\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 28\r\n"
+  },
+  "stage": "finished",
+  "description": "Test filtering TVs by size\n",
+  "steps": [
+    {
+      "name": "TC01_ScreenSize",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: \"55\" - 64\"\"\r\n  But was:  null\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 28\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "5d59e38357614233948060a351a769bc-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "788effbd32754c31a61003eb6c5f3515-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686662932880,
+      "stop": 1686662945601
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686662932879,
+  "stop": 1686662945605
+}

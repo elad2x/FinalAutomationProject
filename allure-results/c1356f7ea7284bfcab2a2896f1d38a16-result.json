@@ -1,0 +1,73 @@
+{
+  "uuid": "836ac01e-10c3-410e-a002-a0401f87f58c-tr-0-1019",
+  "historyId": "Final_Automation_Project.Tests.TestSignInPage.TC04_Login",
+  "fullName": "Final_Automation_Project.Tests.TestSignInPage.TC04_Login",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_Login"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSignInPage"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC04_Login",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC04_Login"
+  },
+  "stage": "finished",
+  "description": "Test login functionality\n",
+  "steps": [
+    {
+      "name": "TC04_Login",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fb4437e72e694a24bba19bcd6c13be5e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687786296142,
+      "stop": 1687786304082
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687786296142,
+  "stop": 1687786304082
+}

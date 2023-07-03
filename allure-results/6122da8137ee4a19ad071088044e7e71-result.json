@@ -1,0 +1,81 @@
+{
+  "uuid": "1e59f422-a330-4849-a5ce-a746ad92ada9-tr-0-1012",
+  "historyId": "Final_Automation_Project.Tests.TestSavedItemsPage.TC02_SeeMoreItems",
+  "fullName": "Final_Automation_Project.Tests.TestSavedItemsPage.TC02_SeeMoreItems",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_SeeMoreItems"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSavedItemsPage"
+    },
+    {
+      "name": "feature",
+      "value": "See more items"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_SeeMoreItems",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 18 but was 28. Strings differ at index 0.\r\n  Expected: \"People also viewed\"\r\n  But was:  \"Most-viewed items (10 items)\"\r\n  -----------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestSavedItemsPage.TC02_SeeMoreItems() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 39\r\n"
+  },
+  "stage": "finished",
+  "description": "Test see more items functionality\n",
+  "steps": [
+    {
+      "name": "TC02_SeeMoreItems",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 18 but was 28. Strings differ at index 0.\r\n  Expected: \"People also viewed\"\r\n  But was:  \"Most-viewed items (10 items)\"\r\n  -----------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestSavedItemsPage.TC02_SeeMoreItems() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 39\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "9e2f196d65854762aa6da2fadfea86f0-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "4600b07b57d448de8cdbc5b8f69f89f8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688296931713,
+      "stop": 1688296932966
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688296931713,
+  "stop": 1688296932966
+}

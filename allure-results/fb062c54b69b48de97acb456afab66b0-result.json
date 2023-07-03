@@ -1,0 +1,73 @@
+{
+  "uuid": "b130e711-2987-4c17-a05c-e83d00d295c3-tr-0-1007",
+  "historyId": "Final_Automation_Project.Tests.TestMainTopBar.TC03_HealthWellness",
+  "fullName": "Final_Automation_Project.Tests.TestMainTopBar.TC03_HealthWellness",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC03_HealthWellness"
+    },
+    {
+      "name": "testClass",
+      "value": "TestMainTopBar"
+    },
+    {
+      "name": "feature",
+      "value": "Open Health and Wellness"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC03_HealthWellness",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC03_HealthWellness"
+  },
+  "stage": "finished",
+  "description": "Test Health and Wellness opening\n",
+  "steps": [
+    {
+      "name": "TC03_HealthWellness",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "6c344b1d8e094373bd574aeb304c32dd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688294162323,
+      "stop": 1688294169218
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688294162323,
+  "stop": 1688294169218
+}

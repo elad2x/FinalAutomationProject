@@ -1,0 +1,73 @@
+{
+  "uuid": "5d2d3d9b-a76a-45b5-9acb-5820dc4219d0-tr-0-1012",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC01_ScreenSize",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_ScreenSize"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Screen size filter"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC01_ScreenSize",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC01_ScreenSize"
+  },
+  "stage": "finished",
+  "description": "Test filtering TVs by size\n",
+  "steps": [
+    {
+      "name": "TC01_ScreenSize",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b0292181c5334f6f87dc5487f80e7a72-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686815735785,
+      "stop": 1686815753800
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686815735784,
+  "stop": 1686815753806
+}

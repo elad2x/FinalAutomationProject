@@ -1,0 +1,21 @@
+items number: 18
+the random numer: 10
+Adding item to cart: Sony - 77" Class BRAVIA XR A80K 4K HDR OLED Google TV
+4K UHDSmartVoice Assist
+Model: XR77A80K
+SKU: 6502608
+Rating 4.8 out of 5 stars with 691 reviews
+(691)
+Compare
+Save
+items number: 18
+the random numer: 7
+Adding item to cart: Insignia™ - 50" Class F30 Series LED 4K UHD Smart Fire TV
+4K UHDDirect LitSmartVoice Assist
+Model: NS-50F301NA24
+SKU: 6525240
+Rating 4.7 out of 5 stars with 454 reviews
+(454)
+Compare
+Save
+ITEM: System.Func`1[System.String]

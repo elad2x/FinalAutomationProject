@@ -1,0 +1,73 @@
+{
+  "uuid": "354f7160-c43a-4731-b474-90de40c7f89d-tr-0-1022",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC02_Brand",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC02_Brand",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_Brand"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Brand filter"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC02_Brand",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC02_Brand"
+  },
+  "stage": "finished",
+  "description": "Test filtering TVs by brand\n",
+  "steps": [
+    {
+      "name": "TC02_Brand",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ba18b852d5fe484699bc4ec706650538-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688294344563,
+      "stop": 1688294347548
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688294344563,
+  "stop": 1688294347548
+}

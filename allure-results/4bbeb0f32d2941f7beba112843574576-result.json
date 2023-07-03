@@ -1,0 +1,81 @@
+{
+  "uuid": "23644277-4974-4039-9e9d-c9da6fb3b9d7-tr-0-1003",
+  "historyId": "Final_Automation_Project.Tests.TestCartPage.TC03_SelectAmount",
+  "fullName": "Final_Automation_Project.Tests.TestCartPage.TC03_SelectAmount",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC03_SelectAmount"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCartPage"
+    },
+    {
+      "name": "feature",
+      "value": "Select amount"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC03_SelectAmount",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.Support.UI.UnexpectedTagNameException : Element should have been select but was div",
+    "trace": "   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at Final_Automation_Project.PageObjects.BasePage.Select(IWebElement select, String value) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 46\r\n   at Final_Automation_Project.PageObjects.CartPage.SelectAmount(String amount) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\CartPage.cs:line 48\r\n   at Final_Automation_Project.Tests.TestCartPage.TC03_SelectAmount() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 59"
+  },
+  "stage": "finished",
+  "description": "Test selecting item amount\n",
+  "steps": [
+    {
+      "name": "TC03_SelectAmount",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.Support.UI.UnexpectedTagNameException : Element should have been select but was div",
+        "trace": "   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at Final_Automation_Project.PageObjects.BasePage.Select(IWebElement select, String value) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\BasePage.cs:line 46\r\n   at Final_Automation_Project.PageObjects.CartPage.SelectAmount(String amount) in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\PageObjects\\CartPage.cs:line 48\r\n   at Final_Automation_Project.Tests.TestCartPage.TC03_SelectAmount() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 59"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "f50254900ab04b269a58c508d33ccee0-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "ab03859656fe404f80e137ce3870e0d9-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687261924897,
+      "stop": 1687261927639
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687261924897,
+  "stop": 1687261927639
+}

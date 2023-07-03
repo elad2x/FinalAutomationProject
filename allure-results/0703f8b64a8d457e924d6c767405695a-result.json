@@ -1,0 +1,81 @@
+{
+  "uuid": "7a50d1a8-5560-44af-9bd9-cb2e82fd0230-tr-0-1001",
+  "historyId": "Final_Automation_Project.Tests.TestCartPage.TC01_AddToCart",
+  "fullName": "Final_Automation_Project.Tests.TestCartPage.TC01_AddToCart",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#10"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_AddToCart"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCartPage"
+    },
+    {
+      "name": "feature",
+      "value": ""
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC01_AddToCart",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  The desired option should be selected.\r\n  String lengths are both 1. Strings differ at index 0.\r\n  Expected: \"3\"\r\n  But was:  \"1\"\r\n  -----------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestCartPage.TC01_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 32\r\n"
+  },
+  "stage": "finished",
+  "description": "\n",
+  "steps": [
+    {
+      "name": "TC01_AddToCart",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  The desired option should be selected.\r\n  String lengths are both 1. Strings differ at index 0.\r\n  Expected: \"3\"\r\n  But was:  \"1\"\r\n  -----------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestCartPage.TC01_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestCartPage.cs:line 32\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "a2f3bf99c338470095f92edcd9fe998c-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "7fcfb272389745c1a25b5ca0caec9cb7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687174711981,
+      "stop": 1687174734001
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687174711981,
+  "stop": 1687174734004
+}

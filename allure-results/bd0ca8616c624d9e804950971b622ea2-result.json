@@ -1,0 +1,73 @@
+{
+  "uuid": "0d2b124e-3772-49e4-89c9-e86ae8f01653-tr-0-1018",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#9"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC05_AddToCart"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Add to cart"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC05_AddToCart",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC05_AddToCart"
+  },
+  "stage": "finished",
+  "description": "Test add random item to cart\n",
+  "steps": [
+    {
+      "name": "TC05_AddToCart",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "4c54c4d300ba41acab9bea1daef59a8a-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687162618356,
+      "stop": 1687162645302
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687162618356,
+  "stop": 1687162645305
+}

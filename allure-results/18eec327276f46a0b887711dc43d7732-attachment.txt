@@ -1,0 +1,15 @@
+items number: 21
+the random numer: 16
+Adding item to cart: Sony - 85" class BRAVIA XR X93L Mini LED 4K HDR Google TV
+4K UHDLocal DimmingSmartVoice Assist
+Model: XR85X93L
+SKU: 6543650
+Rating 3 out of 5 stars with 2 reviews
+(2)
+Compare
+Save
+$4,499.99
+Your price for this item is $4,499.99
+Was $4,999.99
+The previous price was $4,999.99
+System.Collections.ObjectModel.ReadOnlyCollection`1[OpenQA.Selenium.IWebElement]

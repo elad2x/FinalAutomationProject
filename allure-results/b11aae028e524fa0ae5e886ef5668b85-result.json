@@ -1,0 +1,81 @@
+{
+  "uuid": "65e6d67f-392f-4f79-b068-cf2660615fa2-tr-0-1014",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC03_SortBy",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC03_SortBy",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#10"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC03_SortBy"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Sort by"
+    },
+    {
+      "name": "severity",
+      "value": "blocker"
+    }
+  ],
+  "links": [],
+  "name": "TC03_SortBy",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  The desired option should be selected.\r\n  Expected string length 15 but was 13. Strings differ at index 0.\r\n  Expected: \"Customer Rating\"\r\n  But was:  \"Best Discount\"\r\n  -----------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestTVsPage.TC03_SortBy() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 50\r\n"
+  },
+  "stage": "finished",
+  "description": "Test sort by functionality\n",
+  "steps": [
+    {
+      "name": "TC03_SortBy",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  The desired option should be selected.\r\n  Expected string length 15 but was 13. Strings differ at index 0.\r\n  Expected: \"Customer Rating\"\r\n  But was:  \"Best Discount\"\r\n  -----------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestTVsPage.TC03_SortBy() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 50\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "d1c274d3471d4199933f33312a1d97a7-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "a207b59dd9db4f7e954901f7181c3b1f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1686727746957,
+      "stop": 1686727749414
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686727746957,
+  "stop": 1686727749415
+}

@@ -1,0 +1,73 @@
+{
+  "uuid": "3937341a-ec85-4a0e-9221-186e44d7e435-tr-0-1001",
+  "historyId": "Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount",
+  "fullName": "Final_Automation_Project.Tests.TestCartPage.TC01_SelectAmount",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_SelectAmount"
+    },
+    {
+      "name": "testClass",
+      "value": "TestCartPage"
+    },
+    {
+      "name": "feature",
+      "value": "Select amount"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC01_SelectAmount",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC01_SelectAmount"
+  },
+  "stage": "finished",
+  "description": "Test selecting item amount\n",
+  "steps": [
+    {
+      "name": "TC01_SelectAmount",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "43de526189f14d87a4980a22456145d6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687176763256,
+      "stop": 1687176783561
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687176763256,
+  "stop": 1687176783564
+}

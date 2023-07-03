@@ -1,0 +1,73 @@
+{
+  "uuid": "9c025e5b-c87e-4edc-8f4b-e0262b9c72cf-tr-0-1013",
+  "historyId": "Final_Automation_Project.Tests.TestSavedItemsPage.TC03_CompareItems",
+  "fullName": "Final_Automation_Project.Tests.TestSavedItemsPage.TC03_CompareItems",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#10"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC03_CompareItems"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSavedItemsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Compare items"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC03_CompareItems",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC03_CompareItems"
+  },
+  "stage": "finished",
+  "description": "Test comparing items\n",
+  "steps": [
+    {
+      "name": "TC03_CompareItems",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7059a08d4c984339a0a33d73b5d063b0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1688297439067,
+      "stop": 1688297447033
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1688297439067,
+  "stop": 1688297447033
+}

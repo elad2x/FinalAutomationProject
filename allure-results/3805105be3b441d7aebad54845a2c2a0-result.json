@@ -1,0 +1,81 @@
+{
+  "uuid": "888930c3-d8b2-4571-b08a-44fd12d50c78-tr-0-1012",
+  "historyId": "Final_Automation_Project.Tests.TestSavedItemsPage.TC02_",
+  "fullName": "Final_Automation_Project.Tests.TestSavedItemsPage.TC02_",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#12"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_"
+    },
+    {
+      "name": "testClass",
+      "value": "TestSavedItemsPage"
+    },
+    {
+      "name": "feature",
+      "value": ""
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 18 but was 29. Strings differ at index 18.\r\n  Expected: \"People also viewed\"\r\n  But was:  \"People also viewed (11 items)\"\r\n  -----------------------------^\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestSavedItemsPage.TC02_() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 42\r\n"
+  },
+  "stage": "finished",
+  "description": "\n",
+  "steps": [
+    {
+      "name": "TC02_",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 18 but was 29. Strings differ at index 18.\r\n  Expected: \"People also viewed\"\r\n  But was:  \"People also viewed (11 items)\"\r\n  -----------------------------^\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestSavedItemsPage.TC02_() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestSavedItemsPage.cs:line 42\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "540b3ed9768e4653ae28a856218aa5aa-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "c937d5ba637f4424a2c96583e77785b5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687346261790,
+      "stop": 1687346265713
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687346261790,
+  "stop": 1687346265713
+}

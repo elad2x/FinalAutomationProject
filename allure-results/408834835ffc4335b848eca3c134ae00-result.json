@@ -1,0 +1,81 @@
+{
+  "uuid": "99c3d3e4-0c46-409d-b384-11f8e847e277-tr-0-1018",
+  "historyId": "Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart",
+  "fullName": "Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "ELAD-PC"
+    },
+    {
+      "name": "package",
+      "value": "Final_Automation_Project.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC05_AddToCart"
+    },
+    {
+      "name": "testClass",
+      "value": "TestTVsPage"
+    },
+    {
+      "name": "feature",
+      "value": "Add to cart"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC05_AddToCart",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: False\r\n  But was:  True\r\n",
+    "trace": "   at Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 86\r\n"
+  },
+  "stage": "finished",
+  "description": "Test add random item to cart\n",
+  "steps": [
+    {
+      "name": "TC05_AddToCart",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: False\r\n  But was:  True\r\n",
+        "trace": "   at Final_Automation_Project.Tests.TestTVsPage.TC05_AddToCart() in C:\\Users\\eladn.NTDOM\\source\\repos\\Final Automation Project\\Final Automation Project\\Tests\\TestTVsPage.cs:line 86\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "dcc9d820f1be4d0abc0737d8205f9ad1-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "d14c2dc7652c42eb8d0ed8ca354cf396-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1687160604216,
+      "stop": 1687160620599
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1687160604215,
+  "stop": 1687160620602
+}
