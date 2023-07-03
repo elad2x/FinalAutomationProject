@@ -1,2 +1,0 @@
-items number: 18
-the random numer: 8
