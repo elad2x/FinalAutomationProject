@@ -5,7 +5,6 @@ using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System.Net.Mime;
-using System.Threading;
 
 namespace Final_Automation_Project.Tests
 {
@@ -18,8 +17,6 @@ namespace Final_Automation_Project.Tests
         [OneTimeSetUp]
         public void Setup()
         {
-            //ChromeOptions options = new ChromeOptions();
-            //options.AddArgument("--incognito");
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Url = "https://www.bestbuy.com/";
