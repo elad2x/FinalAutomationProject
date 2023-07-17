@@ -2,11 +2,6 @@
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace Final_Automation_Project.PageObjects
 {
@@ -33,14 +28,13 @@ namespace Final_Automation_Project.PageObjects
             WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(timeoutInSeconds));
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(locator));
         }
-        
+
         public void FillText(IWebElement el, string text)
         {
             WaitForElement();
             HighlightElementV2(el, "red");
             el.Clear();
             el.SendKeys(text);
-            
         }
 
         public void DeleteText(IWebElement el)
@@ -53,7 +47,7 @@ namespace Final_Automation_Project.PageObjects
         public void Click(IWebElement el)
         {
             WaitForElement();
-            HighlightElementV2(el, "red");       
+            HighlightElementV2(el, "red");
             el.Click();
         }
 
